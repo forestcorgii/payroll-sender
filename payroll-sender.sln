@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "payroll-sender", "payroll-sender\payroll-sender.vbproj", "{43DC4715-3893-4F4D-A032-0652E74FFED2}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "time-recorder-report", "time-recorder-report\time-recorder-report.vbproj", "{82C2A2FD-F473-4B8E-916E-F74F0B326AC7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "confsaver-xml", "..\confsaver-xml\confsaver-xml\confsaver-xml.vbproj", "{0F96D710-D954-44D9-BDBD-82E6CEF7D1CA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "payroll-autoemailer", "payroll-sender\payroll-autoemailer.vbproj", "{B5A35C3E-6318-4A70-AD09-615C60B72FA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{43DC4715-3893-4F4D-A032-0652E74FFED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43DC4715-3893-4F4D-A032-0652E74FFED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43DC4715-3893-4F4D-A032-0652E74FFED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43DC4715-3893-4F4D-A032-0652E74FFED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C2A2FD-F473-4B8E-916E-F74F0B326AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C2A2FD-F473-4B8E-916E-F74F0B326AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C2A2FD-F473-4B8E-916E-F74F0B326AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C2A2FD-F473-4B8E-916E-F74F0B326AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F96D710-D954-44D9-BDBD-82E6CEF7D1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F96D710-D954-44D9-BDBD-82E6CEF7D1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F96D710-D954-44D9-BDBD-82E6CEF7D1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F96D710-D954-44D9-BDBD-82E6CEF7D1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A35C3E-6318-4A70-AD09-615C60B72FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A35C3E-6318-4A70-AD09-615C60B72FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A35C3E-6318-4A70-AD09-615C60B72FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A35C3E-6318-4A70-AD09-615C60B72FA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
